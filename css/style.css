@@ -3,7 +3,14 @@
     color: black;
     background-color: #67ede9;
 }
-
+.icons {
+    height: 3rem;
+    width: 3rem;
+}
+.why-icon {
+    max-width: 75%;
+    height: auto;
+}
 
 
 
@@ -165,7 +172,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: rgba(1, 10, 53, .8);
+    background: rgba(1, 30, 55, .6); /* rgba(1, 10, 53, .8); */
     z-index: 1;
 }
 
