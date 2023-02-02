@@ -1,4 +1,10 @@
 /* Added */
+body {
+    font-family: "Open Sans", sans-serif;
+}
+h1, h5 {
+    font-family: "Fjalla One", sans-serif;
+}
 .top-bar {
     color: black;
     background-color: #67ede9;
@@ -15,6 +21,110 @@
     height: 5rem;
     margin-bottom: 1rem;
 }
+
+.list {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+.list:after,
+.box:before {
+    content: '';
+    display: table;
+}
+.list:after {
+    clear: both;
+}
+.list>li {
+    width: 220px;
+    height: 220px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    cursor: default;
+    box-shadow: 
+        inset 0 0 0 16px rgba(255,255,255,0.6),
+    0 1px 2px rgba(0,0,0,0.1);
+    transition: all 0.4s ease-in-out;
+}
+.box:hover {
+    box-shadow: 
+        inset 0 0 0 1px rgba(255,255,255,0.1),
+    0 1px 2px rgba(0,0,0,0.1);
+}
+.box:hover > .info {
+    transform: scale(1);
+    opacity: 1;
+}
+.box:hover > .info p {
+    opacity: 1;
+}
+
+.info > p {
+    color: #fff;
+    padding: 10px 5px;
+    margin: 0 30px;
+    font-size: 32px;
+    /* border-top: 1px solid rgba(255,255,255,0.5); */
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    margin-top: 5rem;
+    opacity: 0;
+    transition: all 1s ease-in-out 0.4s;
+}
+.info > p > a {
+    display: block;
+    color: rgba(255,255,255,0.7);
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 9px;
+    letter-spacing: 1px;
+    padding-top: 4px;
+}
+
+.info > p > a:hover {
+    color: rgba(255,242,34, 0.8);
+}
+
+.project_gema {
+    /*@include pro;*/
+    background-repeat: no-repeat;
+    /* height:100px; */
+    background-image:url(../img/projects/log.png);
+    background-size: 100%;
+}
+.project_awards {
+    /*@include pro;*/
+    background-repeat: no-repeat;
+    /* height:100px; */
+    background-image:url(../img/projects/awards.png);
+    background-position: center;
+    background-size: cover;
+}
+.project_cookies {
+    /*@include pro;*/
+    background-repeat: no-repeat;
+    /* height:100px; */
+    background-image:url(../img/projects/cookie.webp);
+    background-position: center;
+    background-size: cover;
+}
+.project_aircon {
+    /*@include pro;*/
+    background-repeat: no-repeat;
+    /* height:100px; */
+    background-image:url(../img/projects/aircon.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 
 
 
