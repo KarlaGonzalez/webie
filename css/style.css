@@ -6,8 +6,10 @@ h1, h5 {
     font-family: "Fjalla One", sans-serif;
 }
 .top-bar {
-    color: black;
-    background-color: #67ede9;
+    height: 3rem;
+    color: white;
+    font-size: 1.2rem;
+    /* background-color: #67ede9; */
 }
 .icons {
     height: 3rem;
@@ -123,6 +125,61 @@ h1, h5 {
     background-image:url(../img/projects/aircon.jpg);
     background-position: center;
     background-size: cover;
+}
+
+.banner-look {
+    background: #010A35;
+    color: white;
+}
+.banner-lg {
+    background: lightgray;
+    color: white;
+}
+.banner-web {
+    background-image: url("../img/online.jpg");
+}
+.banner-stores {
+    background-image: url("../img/buy.jpg");
+}
+.banner-fac {
+    background-image: url("../img/fac.jpg");
+}
+.banner-app {
+    background-image: url("../img/bar.jpg");
+}
+.our-ecommerce {
+    background-image: url("../img/fac.jpg");
+}
+
+.parallax {
+    min-height: 500px;
+    /* Scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* General */
+.giph {
+    width: 100%;
+}
+/* Padding / Margin */
+.pt-3 {
+    padding-top: 3rem;
+}
+.mt-2 {
+    margin-top: 2rem;
+}
+.mb-2 {
+    margin-bottom: 2rem;
+}
+.mt-6 {
+    margin-top: 6rem;
+}
+
+.flex-column {
+    flex-direction: column;
 }
 
 
