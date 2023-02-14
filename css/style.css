@@ -2,7 +2,7 @@
 body {
     font-family: "Open Sans", sans-serif;
 }
-h1, h5 {
+h1, h5, a {
     font-family: "Fjalla One", sans-serif;
 }
 .top-bar {
@@ -182,12 +182,19 @@ h1, h5 {
     flex-direction: column;
 }
 
+.ml-auto {
+    margin-left: auto;
+}
 
+/* Colors */
+.w {
+    color: whi;
+}
 
 
 /********** Template CSS **********/
 :root {
-    --primary: #ee69ce;
+    --primary: #009F88;
     --secondary: #001064;
     --light: #F6F7F8;
     --dark: #010A35;
