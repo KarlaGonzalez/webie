@@ -166,6 +166,19 @@ h1, h4, h5, a {
     background-size: cover;
 }
 
+/* Sections */
+/* .services-section {
+    background: #F2F2F2;
+} */
+#contact {
+    margin-top: 4rem;
+}
+
+.description {
+    padding-top: 1rem;
+    text-align: center;
+}
+
 /* General */
 .giph {
     width: 100%;
@@ -176,6 +189,9 @@ h1, h4, h5, a {
 }
 .mt-2 {
     margin-top: 2rem;
+}
+.mb-1 {
+    margin-bottom: 1rem !important;
 }
 .mb-2 {
     margin-bottom: 2rem;
@@ -190,6 +206,23 @@ h1, h4, h5, a {
 
 .ml-auto {
     margin-left: auto;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.a-cards-style1, .a-cards-style2, .a-cards-style3, .a-cards-style4, .a-cards-style5, .a-cards-style6 {
+    color: #7F8499;
+    text-decoration: none;
+}
+
+.shake-on {
+    animation: 2s anim-lineUp ease-out infinite;
+}
+
+.service-hover {
+    color: #009F88;
 }
 
 /* Colors */
@@ -279,6 +312,9 @@ h1, h4, h5, a {
 
 
 /*** Navbar ***/
+.navbar-nav {
+    margin-left: auto !important; /* added */
+}
 .navbar.sticky-top {
     top: -100px;
     transition: .5s;
@@ -291,9 +327,10 @@ h1, h4, h5, a {
 .navbar .navbar-nav .nav-link {
     margin-left: 25px;
     padding: 10px 0;
-    color: #696E77;
+    color: black; /* #696E77; */
     font-weight: 400;
     outline: none;
+    font-size: large;
 }
 
 .navbar .navbar-nav .nav-link:hover,
@@ -331,7 +368,7 @@ h1, h4, h5, a {
         border: none;
         margin-top: 0;
         top: 150%;
-        right: 0;
+        right: 1; /* 0 - quitaba espacio al dropdown de servicios */
         opacity: 0;
         visibility: hidden;
         transition: .5s;
@@ -463,6 +500,14 @@ h1, h4, h5, a {
 
 
 /*** Service ***/
+.service-item {
+    background: white;
+    padding: 2rem;
+    margin-bottom: 1rem;
+    /* Shadow */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
 .service-item .service-icon {
     width: 90px;
     height: 90px;
