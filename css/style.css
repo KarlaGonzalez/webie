@@ -142,19 +142,19 @@ h1, h4, h5, a {
     color: white;
 }
 .banner-web {
-    background-image: url("../img/online.jpg");
+    background-image: url("../img/compresed/online.jpg");
 }
 .banner-stores {
-    background-image: url("../img/buy.jpg");
+    background-image: url("../img/compresed/buy.jpg");
 }
 .banner-fac {
-    background-image: url("../img/fac.jpg");
+    background-image: url("../img/compresed/fac.jpg");
 }
 .banner-app {
-    background-image: url("../img/bar.jpg");
+    background-image: url("../img/compresed/bar.jpg");
 }
 .our-ecommerce {
-    background-image: url("../img/fac.jpg");
+    background-image: url("../img/compresed/fac.jpg");
 }
 
 .parallax {
